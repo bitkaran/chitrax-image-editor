@@ -1,0 +1,50 @@
+:root {
+  /* ---------- CORE BACKGROUND (deep indigo) ---------- */
+  --bg-primary-color: #030412;
+  --bg-secondary-color: rgba(10, 12, 22, 0.78);
+  --bg-tertiary-color: rgba(18, 20, 34, 0.92);
+
+  /* ---------- ACCENT PALETTE (indigo -> magenta -> cyan) ---------- */
+  --accent-1: #7b61ff; /* indigo */
+  --accent-2: #ff4da6; /* magenta */
+  --accent-3: #3fe7e0; /* cyan */
+
+  /* a subtle gold highlight for micro accents */
+  --accent-4: #ffd27a;
+
+  /* ---------- TEXT ---------- */
+  --text-primary-color: #eef2ff;
+  --text-secondary-color: #c7cbd6;
+  --text-tertiary-color: #9aa0ad;
+  --text-active-color: #06060b;
+
+  /* ---------- GLOWS ---------- */
+  --glow-strong: 0 18px 60px rgba(123, 97, 255, 0.14);
+  --glow-magenta: 0 18px 60px rgba(255, 77, 166, 0.12);
+  --glow-cyan: 0 18px 60px rgba(63, 231, 224, 0.12);
+
+  /* ---------- SHADOWS ---------- */
+  --shadow-soft: 0 10px 40px rgba(2, 6, 18, 0.6);
+  --shadow-strong: 0 30px 90px rgba(2, 6, 18, 0.75);
+  --shadow-inset: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+
+  /* ---------- SIZING ---------- */
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.4rem;
+  --padding-xl: 2.2rem;
+
+  --gutter-sm: 0.5rem;
+  --gutter-md: 1rem;
+  --gutter-lg: 1.5rem;
+
+  --font-size-sm: 0.88rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.15rem;
+  --font-size-xl: 1.35rem;
+
+  --border-radius-sm: 0.4rem;
+  --border-radius-md: 0.7rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.4rem;
+}

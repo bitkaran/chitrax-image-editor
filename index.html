@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Editor</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="theme.css" />
+</head>
+
+<body>
+    <main>
+        <section>
+
+            <div class="left">
+                <div class="top header">
+                    <div class="logo">Chitra<span>X</span></div>
+
+                    <div class="actions">
+                        <label for="image-input" class="btn">
+                            Choose Image
+                            <input type="file" id="image-input" accept="image/*" hidden />
+                        </label>
+
+                        <button class="btn" id="reset-btn">Reset</button>
+                        <button class="btn" id="download-btn">Download</button>
+                    </div>
+
+                </div>
+
+                <div class="top tools">
+                    <button class="btn" onclick="undo()">
+                        <i class="ri-arrow-go-back-line"></i>
+                    </button>
+                    <button class="btn" onclick="redo()">
+                        <i class="ri-arrow-go-forward-line"></i>
+                    </button>
+                </div>
+
+                <div class="bottom">
+                    <div class="placeholder">
+                        <i class="ri-file-image-line"></i>
+                        <p>No image chosen</p>
+                        <small>Drag & drop or click “Choose Image”</small>
+                    </div>
+
+                    <canvas id="image-canvas"></canvas>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="drag-handle"></div>
+                <div class="scroll-area">
+
+                    <h2>Presets</h2>
+                    <p class="preset-hint">Choose an image to load presets</p>
+                    <div class="presets"></div>
+
+                    <h2>Adjustments</h2>
+                    <div class="filters"></div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <div class="modal-overlay" id="download-modal">
+        <div class="modal">
+            <i class="ri-check-line"></i>
+            <p>Image downloaded successfully</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
