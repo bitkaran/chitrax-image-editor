@@ -49,9 +49,10 @@ No frameworks, no libraries — pure frontend logic.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/desktop-view.png" alt="Desktop View" width="48%" />
-  <img src="screenshots/mobile-view.png" alt="Mobile View" width="48%" />
+  <img src="screenshots/desktop-view.png" alt="Desktop View" height="300" />
+  <img src="screenshots/mobile-view.png" alt="Mobile View" height="300" />
 </p>
+
 
 ---
 
